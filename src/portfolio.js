@@ -235,7 +235,7 @@ const educationInfo = {
       logo: require("./assets/images/bbu-logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2006 - 2010",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Built a strong foundation in computer science, software development, and problem-solving through academic studies and practical projects.",
       descBullets: []
     }
   ]
@@ -323,25 +323,14 @@ const bigProjects = {
     {
       image: require("./assets/images/tovban-website-sample.png"),
       projectName: "Online Working Platform",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      projectDesc: "Developed an online freelancing platform that connects local software developers with clients, enabling project collaboration and secure payments through ABA PayWay integration for a seamless transaction experience.",
+      footerLink: []
     },
     {
       image: require("./assets/images/activeitzone-ecommerce.png"),
       projectName: "Ecommerce Website",
-      projectDesc: "Has completed customize Ecommerce Platform",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectDesc: "Customized and enhanced an eCommerce platform, including backend management for orders, shipping transactions, and status tracking, to streamline business operations and improve user experience.",
+      footerLink: []
     },
     {
       image: require("./assets/images/cotafer-booking.png"),
@@ -360,12 +349,7 @@ const bigProjects = {
       projectName: "Live Casino Online",
       projectDesc:
         "Contributed the online entertainment projects, specializing in live dealer games, slots, and sports betting products.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -415,9 +399,8 @@ const achievementSection = {
       title: "Tovban Freelancing Platform",
       subtitle:
         "Successfully delivered a full-featured freelancing platform connecting clients and freelancers, including project workflow management and milestone-based collaboration. Integrated secure payment systems such as ABA PayWay for client deposits and H2H payment release for freelancer payouts, ensuring a reliable and end-to-end transaction process.",
-      image:
-        "https://media.licdn.com/dms/image/v2/C560BAQHFArB4cpwWQA/company-logo_200_200/company-logo_200_200/0/1630636293842?e=1779321600&v=beta&t=EIXfQiv4yKtYeOb1TjVg3JXctNybFu--jqBBrNDn-L8",
-      imageAlt: "Google Assistant Action Logo",
+      image: require("./assets/images/tovban-website-sample.png"),
+      imageAlt: "TovBan",
       footerLink: [
         {
           name: "TovBan Company",
@@ -436,14 +419,10 @@ const achievementSection = {
           name: "Certification",
           url: "https://media.licdn.com/dms/image/v2/C562DAQE9KCFNzuKsYQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1599235009405?e=1778389200&v=beta&t=B5lmnxQfV1qbOGeSbcEFks3vsqxLLHMyKc18zMtcyzw"
         }
-        // {
-        //   name: "Final Project",
-        //   url: "https://pakistan-olx-1.firebaseapp.com/"
-        // }
       ]
     },
     {
-      title: "Freelance",
+      title: "Freelance Projects",
       subtitle:
         "Built a web-based guide platform for the Kampot Governor’s Department, helping showcase local information and improve public access to regional resources.",
       image: require("./assets/images/kampottic.jpg"),
